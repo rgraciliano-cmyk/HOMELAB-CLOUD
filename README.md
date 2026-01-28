@@ -29,7 +29,7 @@ graph TD
     Internet --> FW
     FW --> VM
     VM <--> Storage
-
+```
 
 Componente	Detalhe
 Modelo	Single-node cloud homelab
