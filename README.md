@@ -14,7 +14,7 @@
 Este ambiente segue o modelo **Single-node cloud homelab**, operando diretamente sobre IaaS (Infrastructure as a Service).
 
 ### Topologia de Rede (Diagrama)
-
+```mermaid
 graph TD
     User((👨‍💻 Admin)) -->|SSH / HTTP| Internet
     subgraph OCI [Oracle Cloud - sa-saopaulo-1]
