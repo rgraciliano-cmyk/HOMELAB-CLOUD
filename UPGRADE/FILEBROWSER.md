@@ -28,7 +28,6 @@ Instalação do **FileBrowser** via script automatizado e configuração inicial
 ### 3. Persistência de Serviço (Daemon)
 Para garantir que a aplicação não fosse encerrada ao fechar o terminal SSH, configurei um serviço no **Systemd**.
 
-```ini
 # /etc/systemd/system/filebrowser.service
 [Unit]
 Description=File Browser
